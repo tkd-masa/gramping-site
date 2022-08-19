@@ -1,4 +1,7 @@
-# gramping
+# gramping施設「Green Castel」のソースコード
+
+## サイトのURL
+https://ikb-404.com/takeda/gramping/
 
 ## Project setup
 ```
