@@ -1,4 +1,4 @@
-# gramping施設「Green Castel」のソースコード
+# グランピング施設「Green Castel」のソースコード
 
 ## サイトのURL
 https://ikb-404.com/takeda/gramping/
