@@ -2,12 +2,7 @@
 import { ref } from 'vue'
 
 const open = ref<boolean>(false)
-const items: {
-  id: number
-  link: string
-  itemName: string
-  itemName_ja: string
-}[] = [
+const items: { id: number; link: string; itemName: string; itemName_ja: string }[] = [
   {
     id: 1,
     link: '/HOME',
