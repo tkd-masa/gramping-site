@@ -21,9 +21,11 @@ const btnLists: {
   <div class="btn_area">
     <ul>
       <li v-for="btnList in btnLists" :key="btnList.id" class="btn">
-        <a href="#" class="btn_link"><font-awesome-icon :icon="btnList.btn_icon" class="icon" /><span class="btn_name">{{
-          btnList.btn_name
-        }}</span></a>
+        <a href="#" class="btn_link"
+          ><font-awesome-icon :icon="btnList.btn_icon" class="icon" /><span class="btn_name">{{
+            btnList.btn_name
+          }}</span></a
+        >
       </li>
     </ul>
   </div>
@@ -50,10 +52,6 @@ const btnLists: {
   background-color: var(--accent-color);
   border-radius: 5px;
 }
-
-/* .btn_link:nth-of-type(even) {
-        background-color: var(--accent-color);
-    } */
 
 .icon {
   font-size: 2rem;
