@@ -1,5 +1,5 @@
 diff --git a/node_modules/vue3-carousel/dist/carousel.css b/node_modules/vue3-carousel/dist/carousel.css
-index 8b76a1c..1961752 100644
+index 8b76a1c..bf05a3f 100644
 --- a/node_modules/vue3-carousel/dist/carousel.css
 +++ b/node_modules/vue3-carousel/dist/carousel.css
 @@ -20,8 +20,8 @@
@@ -34,23 +34,7 @@ index 8b76a1c..1961752 100644
    --vc-pgn-background-color: var(--vc-clr-secondary);
    --vc-pgn-active-color: var(--vc-clr-primary);
  }
-@@ -93,13 +97,13 @@
- 
- .carousel__prev {
-   top: 50%;
--  left: 0;
-+  left: -5px;
-   transform: translate(-50%, -50%);
- }
- 
- .carousel__next {
-   top: 50%;
--  right: 0;
-+  right: -5px;
-   transform: translate(50%, -50%);
- }
- 
-@@ -114,3 +118,19 @@
+@@ -114,3 +118,31 @@
    left: 0;
    transform: translate(-50%, -50%);
  }
@@ -68,5 +52,17 @@ index 8b76a1c..1961752 100644
 +    border-radius: var(--vc-nav-width-pc);
 +    width: var(--vc-nav-width-pc);
 +    height: var(--vc-nav-width-pc);
++  }
++
++  .carousel__prev {
++    top: 50%;
++    left: -5px;
++    transform: translate(-50%, -50%);
++  }
++  
++  .carousel__next {
++    top: 50%;
++    right: -5px;
++    transform: translate(50%, -50%);
 +  }
 +}
