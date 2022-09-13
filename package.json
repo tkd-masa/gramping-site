@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "format": "prettier -w src/*.{ts,vue} && prettier -w src/**/*.{ts,vue}",
-    "fix": "yarn format && yarn lint"
+    "fix": "yarn format && yarn lint",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -16,6 +17,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "core-js": "^3.8.3",
     "gsap": "^3.10.4",
+    "patch-package": "^6.4.7",
     "vue": "^3.2.13",
     "vue-router": "^4.0.13",
     "vue3-carousel": "^0.1.40"
